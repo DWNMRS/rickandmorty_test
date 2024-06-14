@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
-    "predeploy":"npm run generate",
+    "deploy":"gh-pages -d dist",
+    "predeploy":"npm run build",
     "preview": "vite preview"
   },
   "dependencies": {
